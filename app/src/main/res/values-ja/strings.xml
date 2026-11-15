@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">WJ Alarm</string>
+    <string name="widget_description">現在時刻と次のアラームを表示します。</string>
+
+    <string name="language_switch_description">言語を切り替える</string>
+
+    <string name="tab_alarm">アラーム</string>
+    <string name="tab_clock">時計</string>
+    <string name="tab_timer">タイマー</string>
+
+    <string name="default_alarm_label">アラーム</string>
+    <string name="cancel">キャンセル</string>
+    <string name="save">保存</string>
+    <string name="am">午前</string>
+    <string name="pm">午後</string>
+    <string name="time_with_ampm">%2$s %1$s</string>
+
+    <string name="output_bt_fallback">Bluetoothヘッドセット（5分後にスピーカー）</string>
+    <string name="output_bt_only">Bluetoothヘッドセットのみ（スピーカーなし）</string>
+    <string name="output_speaker">スピーカーのみ</string>
+    <string name="output_system">システムのデフォルト</string>
+    <string name="output_bt_fallback_short">Bluetooth（5分後にスピーカー）</string>
+    <string name="output_bt_only_short">Bluetoothのみ</string>
+
+    <string name="alarms_title">アラーム</string>
+    <string name="add_alarm">アラームを追加</string>
+    <string name="no_alarms">アラームはありません。＋をタップして追加してください。</string>
+    <string name="days_once">1回のみ</string>
+    <string name="days_every_day">毎日</string>
+    <string name="days_weekdays">平日</string>
+    <string name="days_weekends">週末</string>
+    <string name="days_separator">・</string>
+    <string-array name="day_names_short">
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+        <item>日</item>
+    </string-array>
+    <string-array name="day_letters">
+        <item>月</item>
+        <item>火</item>
+        <item>水</item>
+        <item>木</item>
+        <item>金</item>
+        <item>土</item>
+        <item>日</item>
+    </string-array>
+    <plurals name="span_days">
+        <item quantity="other">%d日</item>
+    </plurals>
+    <plurals name="span_hours">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="span_minutes">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <string name="span_join_two">%1$s%2$s</string>
+    <string name="span_join_three">%1$s%2$s%3$s</string>
+    <string name="alarm_set_toast">%s後にアラームが鳴ります</string>
+
+    <string name="edit_alarm">アラームを編集</string>
+    <string name="delete_alarm">アラームを削除</string>
+    <string name="alarm_name">アラーム名</string>
+    <string name="repeat_alarm">繰り返し</string>
+    <string name="alarm_sound">アラーム音</string>
+    <string name="default_alarm_sound">デフォルトのアラーム音</string>
+    <string name="system_sound">システムサウンド</string>
+    <string name="sound_file">サウンドファイル</string>
+    <string name="change">変更</string>
+    <string name="audio_output_route">音声の出力先</string>
+    <string name="volume_percent">音量（%d%%）</string>
+    <string name="vibrate">バイブレーション</string>
+    <string name="select_sound_source">サウンドを選択</string>
+    <string name="system_sounds">システムサウンド</string>
+    <string name="audio_file">音声ファイル</string>
+
+    <string name="clock_title">時計</string>
+    <string name="next_scheduled_alarm">次のアラーム</string>
+    <string name="no_active_alarms">有効なアラームはありません</string>
+    <string name="add_widget">ホーム画面にウィジェットを追加（4x2）</string>
+    <string name="add_widget_hint">ウィジェットの追加方法：ホーム画面を長押し → ウィジェット → WJ Alarm（4x2）</string>
+
+    <string name="timer_title">タイマー</string>
+    <string name="start_timer">タイマー開始</string>
+    <string name="use_last_used">前回の時間：%s</string>
+    <string name="pause">一時停止</string>
+    <string name="resume">再開</string>
+    <string name="preset_minutes">%d分</string>
+    <string name="timer_finished">タイマー終了！</string>
+
+    <string name="snooze_5m">スヌーズ（5分）</string>
+    <string name="dismiss">停止</string>
+    <string name="snoozed_suffix">（スヌーズ）</string>
+
+    <string name="notif_alarm_ringing">アラーム鳴動中：%s</string>
+    <string name="notif_tap_to_stop">タップして停止またはスヌーズ</string>
+    <string name="notif_turn_off">停止</string>
+    <string name="channel_alarm_name">アラーム通知</string>
+    <string name="channel_alarm_description">鳴動中のアラームの通知</string>
+    <string name="notif_upcoming_alarm">まもなくアラーム</string>
+    <string name="notif_dismiss_now">今すぐ解除</string>
+    <string name="channel_upcoming_name">まもなく鳴るアラーム</string>
+    <string name="channel_upcoming_description">アラームの30分前に表示されるサイレント通知（事前に解除できます）</string>
+
+    <string name="widget_no_alarms">アラーム未設定</string>
+</resources>

@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">WJ Alarm</string>
+    <string name="widget_description">Shows current time and next scheduled alarm.</string>
+
+    <!-- Language switcher -->
+    <string name="language_switch_description">Switch language</string>
+
+    <!-- Tabs -->
+    <string name="tab_alarm">Alarm</string>
+    <string name="tab_clock">Clock</string>
+    <string name="tab_timer">Timer</string>
+
+    <!-- Common -->
+    <string name="default_alarm_label">Alarm</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string name="time_with_ampm">%1$s %2$s</string>
+
+    <!-- Audio output -->
+    <string name="output_bt_fallback">Bluetooth Headset (5m Speaker Fallback)</string>
+    <string name="output_bt_only">Bluetooth Headset Only (No Fallback)</string>
+    <string name="output_speaker">Speaker Only</string>
+    <string name="output_system">System Default</string>
+    <string name="output_bt_fallback_short">Bluetooth (5m Fallback)</string>
+    <string name="output_bt_only_short">Bluetooth Only</string>
+
+    <!-- Alarm list -->
+    <string name="alarms_title">Alarms</string>
+    <string name="add_alarm">Add Alarm</string>
+    <string name="no_alarms">No alarms set. Tap + to add one.</string>
+    <string name="days_once">Once</string>
+    <string name="days_every_day">Every day</string>
+    <string name="days_weekdays">Weekdays</string>
+    <string name="days_weekends">Weekends</string>
+    <string name="days_separator">, </string>
+    <string-array name="day_names_short">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+    <string-array name="day_letters">
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+        <item>S</item>
+    </string-array>
+    <plurals name="span_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="span_hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <plurals name="span_minutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+    <string name="span_join_two">%1$s and %2$s</string>
+    <string name="span_join_three">%1$s, %2$s and %3$s</string>
+    <string name="alarm_set_toast">Alarm set for %s from now</string>
+
+    <!-- Alarm edit dialog -->
+    <string name="edit_alarm">Edit Alarm</string>
+    <string name="delete_alarm">Delete Alarm</string>
+    <string name="alarm_name">Alarm Name</string>
+    <string name="repeat_alarm">Repeat Alarm</string>
+    <string name="alarm_sound">Alarm Sound</string>
+    <string name="default_alarm_sound">Default Alarm Sound</string>
+    <string name="system_sound">System Sound</string>
+    <string name="sound_file">Sound File</string>
+    <string name="change">Change</string>
+    <string name="audio_output_route">Audio Output Route</string>
+    <string name="volume_percent">Volume (%d%%)</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="select_sound_source">Select Sound Source</string>
+    <string name="system_sounds">System Sounds</string>
+    <string name="audio_file">Audio File</string>
+
+    <!-- Clock -->
+    <string name="clock_title">Clock</string>
+    <string name="next_scheduled_alarm">Next Scheduled Alarm</string>
+    <string name="no_active_alarms">No active alarms</string>
+    <string name="add_widget">Add Home Screen Widget (4x2)</string>
+    <string name="add_widget_hint">To add widget: Long press Home Screen -> Widgets -> WJ Alarm (4x2)</string>
+
+    <!-- Timer -->
+    <string name="timer_title">Timer</string>
+    <string name="start_timer">Start Timer</string>
+    <string name="use_last_used">Use Last Used: %s</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    <string name="preset_minutes">%d min</string>
+    <string name="countdown_hms" translatable="false">%1$02dh %2$02dm %3$02ds</string>
+    <string name="countdown_ms" translatable="false">%1$02dm %2$02ds</string>
+    <string name="timer_finished">Timer Finished!</string>
+
+    <!-- Ringing screen -->
+    <string name="snooze_5m">Snooze (5m)</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="snoozed_suffix">(Snoozed)</string>
+
+    <!-- Notifications -->
+    <string name="notif_alarm_ringing">Alarm Ringing: %s</string>
+    <string name="notif_tap_to_stop">Tap to turn off or snooze</string>
+    <string name="notif_turn_off">Turn Off</string>
+    <string name="channel_alarm_name">Alarm Notification</string>
+    <string name="channel_alarm_description">Channel for active alarm notifications</string>
+    <string name="notif_upcoming_alarm">Upcoming alarm</string>
+    <string name="notif_dismiss_now">Dismiss now</string>
+    <string name="channel_upcoming_name">Upcoming alarms</string>
+    <string name="channel_upcoming_description">Silent reminder 30 minutes before an alarm, to turn it off early</string>
+
+    <!-- Widget -->
+    <string name="widget_no_alarms">No Alarms Set</string>
+</resources>
